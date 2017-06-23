@@ -27,6 +27,7 @@ void squeeze(char s[],char t[]){
         n=0;
     }
     s[m]='\0';
+    printf("s[]=%s\n",s);
 #endif
     int i,j,k;
     for (i=k=0; s[i]!='\0'; ++i) {
